@@ -1,0 +1,33 @@
+{
+    "version": "2.2.7",
+    "name": "datatables.net/datatables.net-responsive-bs5",
+    "description": "In the modern world of responsive web design tables can often cause a particular problem for designers due to their row based layout. Responsive is an extension for DataTables that resolves that problem by optimising the table's layout for different screen sizes through the dynamic insertion and removal of columns from the table. This is Responsive for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-Responsive-Bootstrap5"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "keywords": [
+        "Responsive",
+        "Bootstrap",
+ "Bootstrap5",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
+    "require": {
+        "datatables.net/datatables.net-responsive": ">=2.2.7",
+        "datatables.net/datatables.net-bs5": ">=1.10.24"
+    }
+}

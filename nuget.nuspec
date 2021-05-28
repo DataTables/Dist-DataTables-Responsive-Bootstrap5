@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>2.2.7</version>
+        <id>datatables.net-responsive-bs5</id>
+        <description>This is Responsive for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Responsive-Bootstrap5.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>Responsive  Bootstrap  Bootstrap5  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-responsive" version=">=2.2.7"/>
+            <dependency id="datatables.net-bs5" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/responsive.bootstrap5.js" target="content\Scripts"/>
+        <file src="js/responsive.bootstrap5.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/responsive.bootstrap5.min.js" target="content\Scripts"/>
+        <file src="js/responsive.bootstrap5.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/responsive.bootstrap5.css" target="content\Content"/>
+        <file src="css/responsive.bootstrap5.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/responsive.bootstrap5.min.css" target="content\Content"/>
+        <file src="css/responsive.bootstrap5.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/responsive.bootstrap5.d.ts" target="content\Scripts"/>
+        <file src="types/responsive.bootstrap5.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+

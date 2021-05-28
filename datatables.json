@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/responsive.bootstrap5.js",
+        "js/responsive.bootstrap5.min.js"
+    ],
+    "css": [
+        "css/responsive.bootstrap5.css",
+        "css/responsive.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/responsive.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/Responsive",
+    "last-tag": "2.2.7"
+}
