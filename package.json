@@ -3,6 +3,7 @@
     "description": "Responsive for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
     "main": "js/responsive.bootstrap5.js",
     "style": "css/responsive.bootstrap5.css",
+    "types": "./types/responsive.bootstrap5.d.ts",
     "version": "2.2.7",
     "files": [
         "css/**/*.css",
