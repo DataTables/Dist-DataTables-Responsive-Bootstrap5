@@ -4,7 +4,7 @@
     "main": "js/responsive.bootstrap5.js",
     "style": "css/responsive.bootstrap5.css",
     "types": "./types/responsive.bootstrap5.d.ts",
-    "version": "2.2.7",
+    "version": "2.2.8",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -12,7 +12,7 @@
     "keywords": [
         "Responsive",
         "Bootstrap",
- "Bootstrap5",
+        "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
@@ -20,8 +20,6 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": ">=2.2.7",
-        "datatables.net-bs5": ">=1.10.24",
         "jquery": ">=1.7"
     },
     "moduleType": [
