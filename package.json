@@ -7,7 +7,8 @@
     "version": "2.2.9",
     "files": [
         "css/**/*.css",
-        "js/**/*.js"
+        "js/**/*.js",
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "Responsive",
