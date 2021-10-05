@@ -22,7 +22,7 @@
     ],
     "dependencies": {
         "datatables.net-responsive": ">=2.2.9",
-        "datatables.net-bs5": ">=1.10.25",
+        "datatables.net-bs5": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
