@@ -28,6 +28,6 @@
     ],
     "require": {
         "datatables.net/datatables.net-responsive": ">=2.2.9",
-        "datatables.net/datatables.net-bs5": ">=1.11.3"
+        "datatables.net/datatables.net-bs5": ">=1.11.5"
     }
 }

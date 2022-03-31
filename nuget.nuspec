@@ -11,7 +11,7 @@
         <tags>Responsive  Bootstrap  Bootstrap5  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-responsive" version="2.2.9"/>
-            <dependency id="datatables.net-bs5" version="1.11.3"/>
+            <dependency id="datatables.net-bs5" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/responsive.bootstrap5.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/responsive.bootstrap5.min.css" target="content\Content"/>
         <file src="css/responsive.bootstrap5.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/responsive.bootstrap5.d.ts" target="content\Scripts"/>
-        <file src="types/responsive.bootstrap5.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
