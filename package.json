@@ -5,7 +5,7 @@
     "module": "js/responsive.bootstrap5.mjs",
     "style": "css/responsive.bootstrap5.css",
     "types": "./types/types.d.ts",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
