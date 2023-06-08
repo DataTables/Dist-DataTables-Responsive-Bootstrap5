@@ -19,6 +19,10 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
   color: rgba(0, 0, 0, 0.5);
   content: "►";
 }
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control.arrow-right::before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control.arrow-right::before {
+  content: "◄";
+}
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td.dtr-control:before,
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th.dtr-control:before {
   content: "▼";
@@ -40,6 +44,12 @@ table.dataTable.dtr-column > tbody > tr > th.control:before {
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
   content: "►";
+}
+table.dataTable.dtr-column > tbody > tr > td.dtr-control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > th.dtr-control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > td.control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > th.control.arrow-right::before {
+  content: "◄";
 }
 table.dataTable.dtr-column > tbody > tr.parent td.dtr-control:before,
 table.dataTable.dtr-column > tbody > tr.parent th.dtr-control:before,
@@ -75,6 +85,7 @@ table.dataTable > tbody > tr.child span.dtr-title {
   min-width: 75px;
   font-weight: bold;
 }
+
 div.dtr-modal {
   position: fixed;
   box-sizing: border-box;
