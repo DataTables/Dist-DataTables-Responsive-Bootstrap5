@@ -2,9 +2,12 @@
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import $ from 'jquery';
+import jQuery from 'jquery';
 import DataTable from 'datatables.net-bs5';
 import Responsive from 'datatables.net-responsive';
+
+// Allow reassignment of the $ variable
+let $ = jQuery;
 
 
 var _display = DataTable.Responsive.display;
