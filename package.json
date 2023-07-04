@@ -5,7 +5,7 @@
     "module": "js/responsive.bootstrap5.mjs",
     "style": "css/responsive.bootstrap5.css",
     "types": "./types/responsive.bootstrap5.d.ts",
-    "version": "2.4.1",
+    "version": "2.5.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -15,7 +15,7 @@
     "keywords": [
         "Responsive",
         "Bootstrap",
- "Bootstrap5",
+        "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
