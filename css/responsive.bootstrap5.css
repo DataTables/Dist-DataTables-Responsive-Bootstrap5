@@ -147,13 +147,16 @@ div.dtr-modal div.dtr-modal-background {
     width: 95%;
   }
 }
-html.dark table.dataTable > tbody > tr > td.dtr-control:before {
+html.dark table.dataTable > tbody > tr > td.dtr-control:before,
+html[data-bs-theme=dark] table.dataTable > tbody > tr > td.dtr-control:before {
   color: rgba(255, 255, 255, 0.5) !important;
 }
-html.dark table.dataTable > tbody > tr.child ul.dtr-details > li {
+html.dark table.dataTable > tbody > tr.child ul.dtr-details > li,
+html[data-bs-theme=dark] table.dataTable > tbody > tr.child ul.dtr-details > li {
   border-bottom-color: #404346;
 }
-html.dark div.dtr-modal div.dtr-modal-display {
+html.dark div.dtr-modal div.dtr-modal-display,
+html[data-bs-theme=dark] div.dtr-modal div.dtr-modal-display {
   background-color: #212529;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
