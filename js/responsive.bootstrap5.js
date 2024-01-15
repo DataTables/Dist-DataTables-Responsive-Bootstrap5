@@ -47,7 +47,7 @@
 		// Browser
 		factory( jQuery, window, document );
 	}
-}(function( $, window, document, undefined ) {
+}(function( $, window, document ) {
 'use strict';
 var DataTable = $.fn.dataTable;
 
@@ -88,6 +88,12 @@ _display.modal = function (options) {
 			return _original(row, update, render, closeCallback);
 		}
 		else {
+			var rendered = render();
+
+			if (rendered === false) {
+				return false;
+			}
+
 			if (!update) {
 				if (options && options.header) {
 					var header = _modal.find('div.modal-header');
@@ -99,7 +105,7 @@ _display.modal = function (options) {
 						.append(button);
 				}
 
-				_modal.find('div.modal-body').empty().append(render());
+				_modal.find('div.modal-body').empty().append(rendered);
 
 				_modal
 					.data('dtr-row-idx', row.index())
@@ -111,7 +117,7 @@ _display.modal = function (options) {
 			}
 			else {
 				if ($.contains(document, _modal[0]) && row.index() === _modal.data('dtr-row-idx')) {
-					_modal.find('div.modal-body').empty().append(render());
+					_modal.find('div.modal-body').empty().append(rendered);
 				}
 				else {
 					// Modal not shown for this row - do nothing
