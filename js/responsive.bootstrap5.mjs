@@ -36,12 +36,12 @@ DataTable.Responsive.bootstrap = function (bs) {
 };
 
 _display.modal = function (options) {
-	if (!modal) {
+	if (!modal && _bs.Modal) {
 		modal = new _bs.Modal(_modal[0]);
 	}
 
 	return function (row, update, render, closeCallback) {
-		if (!$.fn.modal) {
+		if (! modal) {
 			return _original(row, update, render, closeCallback);
 		}
 		else {
@@ -67,8 +67,7 @@ _display.modal = function (options) {
 				_modal
 					.data('dtr-row-idx', row.index())
 					.one('hidden.bs.modal', closeCallback)
-					.appendTo('body')
-					.modal();
+					.appendTo('body');
 
 				modal.show();
 			}
