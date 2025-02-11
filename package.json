@@ -5,7 +5,7 @@
     "module": "js/responsive.bootstrap5.mjs",
     "style": "css/responsive.bootstrap5.css",
     "types": "./types/responsive.bootstrap5.d.ts",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": "3.0.3",
+        "datatables.net-responsive": "3.0.4",
         "datatables.net-bs5": "^2",
         "jquery": ">=1.7"
     },
