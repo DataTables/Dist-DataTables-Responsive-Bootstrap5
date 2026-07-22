@@ -1,4 +1,4 @@
-/*! Responsive Bootstrap 5 styling 4.0.0-beta.1 for DataTables
+/*! Responsive Bootstrap 5 styling 4.0.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
