@@ -5,7 +5,7 @@
     "module": "js/responsive.bootstrap5.mjs",
     "style": "css/responsive.bootstrap5.css",
     "types": "./types/responsive.bootstrap5.d.ts",
-    "version": "4.0.0-beta.1",
+    "version": "4.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -22,8 +22,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-responsive": "4.0.0-beta.1",
-        "datatables.net-bs5": "3.0.0-0"
+        "datatables.net-responsive": "4.0.0",
+        "datatables.net-bs5": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
