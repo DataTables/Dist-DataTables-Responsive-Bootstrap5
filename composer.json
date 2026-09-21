@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-responsive-bs5",
-    "description": "Responsive for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
+    "description": "Responsive for DataTables with styling for Bootstrap5",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Responsive-Bootstrap5"
