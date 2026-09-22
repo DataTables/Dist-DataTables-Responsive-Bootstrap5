@@ -26,7 +26,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-responsive": "4.0.2",
-        "datatables.net/datatables.net-bs5": "^3"
+        "datatables.net/datatables.net-responsive": "4.1.0",
+        "datatables.net/datatables.net-bs5": "^3.1"
     }
 }
