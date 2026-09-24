@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/responsive.bootstrap5.d.ts",
+            "style": "./css/responsive.bootstrap5.css",
             "import": "./js/responsive.bootstrap5.mjs",
-            "default": "./js/responsive.bootstrap5.mjs",
-            "require": "./js/responsive.bootstrap5.js"
+            "require": "./js/responsive.bootstrap5.js",
+            "default": "./js/responsive.bootstrap5.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
